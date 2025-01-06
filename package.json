@@ -4,8 +4,8 @@
   "description": "scrap and download all media and message from telegram channel, group or a user",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js"
+    "dev": "node init && nodemon index.js",
+    "start": "node init && node index.js"
   },
   "nodemonConfig": {
     "ignore": [
